@@ -73,11 +73,11 @@ function repeatChar(str ,num) {
    out= str;
    while(num >0)
    {
-       output+= " "+str;
+       out+= " "+str;
          num--;
    }
 
-   return output;
+   return out;
        
 }
 repeatChar("c",5);
